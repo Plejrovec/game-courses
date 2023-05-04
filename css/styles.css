@@ -6,3 +6,20 @@
     --light-color: #E8F7FB;
     --purple: #6F7DFB ;
 }
+
+*,*::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+body>* {
+    padding: 0 5rem;
+}
+
+.navbar {
+    background-color: var(--light-blue);
+    display: flex;
+}
